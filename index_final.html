@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="OLV Internacional – Integramos estratégia, operação e resultado. Consultoria em Supply Chain, Comércio Exterior e Internacionalização de PMEs." />
+  <meta name="keywords" content="OLV Internacional, supply chain, comércio exterior, consultoria, internacionalização, soluções integradas">
+  <meta name="author" content="OLV Internacional">
+  <title>OLV Internacional – Integramos Estratégia, Operação e Resultado</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    }
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+  <style>
+    .transition-all { transition: all 0.3s ease-in-out; }
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .animate-marquee {
+      animation: marquee 40s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-all">
+  <header class="bg-white dark:bg-gray-800 shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <a href="/index.html" class="text-xl font-bold text-gold">OLV Internacional</a>
+      <nav class="space-x-4 text-sm">
+        <a href="#sobre" class="hover:underline">Sobre</a>
+        <a href="#servicos" class="hover:underline">Serviços</a>
+        <a href="#projetos" class="hover:underline">Projetos</a>
+        <a href="#blog" class="hover:underline">Blog</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+        <button onclick="toggleDarkMode()" class="ml-4 px-3 py-1 border rounded text-xs dark:border-white border-black">Modo</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-16 space-y-24">
+    <section id="hero" class="text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-gold dark:text-yellow-400">Integramos estratégia, operação e resultado.</h1>
+      <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">Consultoria especializada em Supply Chain, Comércio Exterior e Internacionalização de PMEs.</p>
+    </section>
+
+    <section id="sobre" class="text-center">
+      <h2 class="text-3xl font-semibold text-gold mb-6">Sobre a OLV</h2>
+      <p class="max-w-3xl mx-auto text-lg">A OLV Internacional atua há mais de 30 anos como parceira estratégica para PMEs brasileiras, oferecendo soluções integradas em comércio exterior, cadeia de suprimentos e inteligência operacional global.</p>
+    </section>
+
+    <section id="servicos" class="text-center">
+      <h2 class="text-3xl font-semibold text-gold mb-6">Serviços</h2>
+      <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="p-6 border rounded dark:border-gray-600">
+          <h3 class="text-xl font-bold mb-2">Consultoria Estratégica</h3>
+          <p>Planejamento logístico, compliance e expansão internacional sob medida.</p>
+        </div>
+        <div class="p-6 border rounded dark:border-gray-600">
+          <h3 class="text-xl font-bold mb-2">Projetos 4PL</h3>
+          <p>Gerenciamento de operações logísticas e cadeia de suprimentos ponta a ponta.</p>
+        </div>
+        <div class="p-6 border rounded dark:border-gray-600">
+          <h3 class="text-xl font-bold mb-2">Internacionalização</h3>
+          <p>Acesso a mercados globais com validação fiscal, jurídica e tributária.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="text-center">
+      <h2 class="text-3xl font-semibold text-gold mb-6">Projetos do Ecossistema</h2>
+      <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <a href="https://stratevo.com.br" class="block p-6 border rounded hover:bg-gold hover:text-black transition dark:border-gray-600">STRATEVO – Inteligência comercial com IA</a>
+        <a href="https://exceltta.com.br" class="block p-6 border rounded hover:bg-gold hover:text-black transition dark:border-gray-600">EXCELTTA – Análise de editais e licitações</a>
+        <a href="https://olvconnecta.com.br" class="block p-6 border rounded hover:bg-gold hover:text-black transition dark:border-gray-600">OLV CONNECTA – Hub de fornecedores homologados</a>
+        <a href="#" class="block p-6 border rounded hover:bg-gold hover:text-black transition dark:border-gray-600">VERITUS – Simulador financeiro estratégico</a>
+      </div>
+    </section>
+
+    <section id="blog" class="text-center">
+      <h2 class="text-3xl font-semibold text-gold mb-6">Blog Inteligente</h2>
+      <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">Atualizações automáticas com as principais notícias sobre logística, comércio internacional e supply chain.</p>
+      <div id="manchetes" class="mt-6 text-left max-w-3xl mx-auto text-sm italic text-gray-500 dark:text-gray-400"></div>
+    </section>
+
+    <section id="contato" class="text-center">
+      <h2 class="text-3xl font-semibold text-gold mb-6">Fale com a OLV</h2>
+      <p class="mb-4">Rua Coronel Irineu de Castro, 43 Sala 305 – Anália Franco – São Paulo – CEP 03333-050</p>
+      <p class="mb-4">Tel: +55 11 2675 1446</p>
+      <p class="mb-4">Email: atendimento@olvinternacional.com.br</p>
+      <a href="/contato.html" class="mt-6 inline-block px-6 py-2 bg-gold text-black rounded hover:bg-yellow-500 transition">Acessar Formulário</a>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm py-6 mt-16 border-t dark:border-gray-700">
+    <p class="text-gold italic text-sm">Integramos estratégia, operação e resultado.</p>
+    <p class="mt-2">&copy; 2025 OLV Internacional. Desenvolvido por OLV CORE.</p>
+  </footer>
+
+  <!-- Ticker de manchetes fixo inferior -->
+  <div class="fixed bottom-0 left-0 w-full bg-black text-white text-sm overflow-hidden z-50">
+    <div class="animate-marquee whitespace-nowrap py-2 px-6">
+      <a href="https://www.cnnbrasil.com.br/economia/nova-politica-industrial-foco-exportacao/" target="_blank" class="mr-12 hover:text-yellow-400">🚨 Nova política industrial voltada à exportação (CNN)</a>
+      <a href="https://www.gov.br/comex" target="_blank" class="mr-12 hover:text-yellow-400">📈 Exportações brasileiras crescem 12% (gov.br)</a>
+      <a href="https://valor.globo.com" target="_blank" class="mr-12 hover:text-yellow-400">💹 Custo logístico recua em 2025 (Valor Econômico)</a>
+      <a href="https://www25.senado.leg.br" target="_blank" class="mr-12 hover:text-yellow-400">📊 Senado aprova medidas para o setor logístico</a>
+      <a href="https://economia.uol.com.br" target="_blank" class="hover:text-yellow-400">💵 Dólar recua com alta da balança comercial (UOL)</a>
+    </div>
+  </div>
+
+  <script>
+    fetch('https://olv-backend-noticias.onrender.com/noticias')
+      .then(r => r.json())
+      .then(data => {
+        const ul = document.getElementById('manchetes');
+        data.forEach(noticia => {
+          const div = document.createElement('div');
+          div.innerHTML = `<a href="${noticia.link}" target="_blank" class="text-gold hover:underline font-medium">${noticia.titulo}</a><br><span class='text-xs text-gray-400'>Fonte: ${noticia.fonte}</span><hr class="my-2">`;
+          ul.appendChild(div);
+        });
+      });
+  </script>
+</body>
+</html>
