@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://olv-internacional.vercel.app/index.html</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/sobre.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/servicos.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/projetos.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/blog.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/contato.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/index_en.html</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://olv-internacional.vercel.app/index_es.html</loc>
+    <priority>0.50</priority>
+  </url>
+</urlset>
